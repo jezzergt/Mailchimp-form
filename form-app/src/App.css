@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #C2D7F5;
+  background-size: auto;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mailchimp-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailchimp-form input {
+  min-width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mailchimp textarea:focus, input:focus{
+  outline: none;
+}
+
+.mailchimp-form button {
+  min-width: 300px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  background-color: rgb(218, 105, 105);
+}
